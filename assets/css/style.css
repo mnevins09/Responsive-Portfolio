@@ -78,7 +78,6 @@ form{
 	margin: 0px auto 0px auto;
 	padding: 0px auto 0px auto;
     width: 960px;
-    height: 650px;
     background: #ffffff;
     border-color: #cccccc;
     border: 2px solid;
@@ -208,18 +207,73 @@ footer{
 	text-align: center;
 	font-weight: normal;
     bottom: 20px;
-/* I tried to position the text on the images, but I could not get it to work*/	
+/* I tried to position the text on the images, but I could not get it to work*/
+
 }
 
 
-@media screen and (max-width: 980px) {
-	
+/*Media Queries*/
+
+/* Computer */
+
+@media only screen and (max-width: 980px) {
+	.top-container {
+		width: 940px;
+	}
+
 }
+
+/* Tablet */
 
 @media screen and (max-width: 768px) {
+	
+	h1 {
+		margin-left: 0px;
+	}
+	
+	.top-container {
+		width: 600px;
+		float: left;
+	}
+	
+	.container {
+		width: 600px;
+		height: 609px;
+		background: white;
+	}
 
+	.footer-container {
+		width: 600px;
+	}
+
+	#about-me {
+		
+		width: 400px;
+    	margin-bottom: 25px;
+    	margin-top: 25px;
+    	margin-left: 35px;
+	}
+
+	.section {
+		margin: auto;
+
+	}
 }
+
+/* Phone */
 
 @media screen and (max-width: 640px) {
 	
+	.top-container {
+		width: 500px;
+	}
+	
+	.container {
+		width: 500px;
 } 
+
+	.footer-container {
+		width: 500px;
+	}
+
+}
