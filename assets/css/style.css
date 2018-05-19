@@ -139,7 +139,7 @@ footer{
 	border: 1px solid #dddddd;
 	width: 500px;
 	margin-top: 25px;
-	margin-bottom:65px;
+	margin-bottom:25px;
 	margin-left: 135px;
 }
 
@@ -258,6 +258,10 @@ footer{
 		margin: auto;
 
 	}
+
+	#contact-box {
+		margin-left: 50px;
+	}
 }
 
 /* Phone */
@@ -276,4 +280,7 @@ footer{
 		width: 500px;
 	}
 
+	#contact-box {
+		margin-left: 25px;
+	}
 }
